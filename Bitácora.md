@@ -10,7 +10,7 @@
 | *Total*       | *100*     |
 
 ---
-# 23-Enero-2024
+# 23-Enero-2024 (Tarea)
 ---
 # CONCEPTOS BÁSICOS DE SEGURIDAD
 
@@ -85,3 +85,24 @@ Una amenaza es cualquier evento o acción, ya sea intencional o no, que pueda ca
 ## *Impacto*
 
 El impacto representa las consecuencias de una amenaza que se materializa. Puede incluir pérdida de datos, interrupción de servicios, daño a la reputación y pérdidas económicas. La evaluación del impacto ayuda a priorizar la respuesta a incidentes y a asignar recursos de manera efectiva para mitigar los efectos negativos.
+
+---
+# 23-Enero-2024
+---
+
+## *Terminología escencial*
+
+- Valor de pirateo
+Es la noción entre los hackers de que algo vale la pena hacer o es interesante.
+- Explotar
+Una forma definida de violar la seguridad de un sistema de TI a través de una vulnerabilidad.
+- Vulnerabilidad
+Existencia de una debilidad, error de diseño o implementación que puede conducir a un evento inesperado e indeseable que comprometa la seguridad del sistema.
+- Objetivo de Evaluación
+Un sistema, producto o componente de TI que está identificado/sujeto a una evaluación de seguridad requerida.
+- Ataque de día cero
+Un ataque que explota las vulnerabilidades de las aplicaciones informáticas antes de que el desarrollador del software publique un parche para la vulnerabilidad.
+- Conexión en cadena
+Los piratas informáticos que se salen con la suya con el robo de bases de datos generalmente completan su tarea y luego retroceden para cubrir sus huellas destruyendo registros, etc.
+
+*Buscar ejemplos de ataque de día cero*
