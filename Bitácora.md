@@ -106,3 +106,4 @@ Un ataque que explota las vulnerabilidades de las aplicaciones informáticas ant
 Los piratas informáticos que se salen con la suya con el robo de bases de datos generalmente completan su tarea y luego retroceden para cubrir sus huellas destruyendo registros, etc.
 
 *Buscar ejemplos de ataque de día cero*
+*IDS/IPS*
