@@ -1,4 +1,4 @@
-  ##Tareas entregadas:
+Tareas entregadas:
 - Tarea #999 Crear cuenta de github con su correo institucional
 - Tarea #998 Crear repositorio para portafolio de evidencias
 - Tarea #997 Registrarse en el programa de github for education
