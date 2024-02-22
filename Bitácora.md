@@ -107,3 +107,172 @@ Los piratas informáticos que se salen con la suya con el robo de bases de datos
 
 *Buscar ejemplos de ataque de día cero*
 *IDS/IPS*
+
+---
+# 15-Febrero-2024
+---
+
+# *Parte 1: Pentesting*
+
+## Whittor, Blarbor, Graybor:
+
+- Whittor: Se enfoca en pruebas de caja blanca, donde el pentester tiene acceso al código fuente y la infraestructura interna del sistema.
+- Blarbor: Se enfoca en pruebas de caja negra, donde el pentester solo tiene acceso a la interfaz de usuario del sistema.
+-Graybor: Es una combinación de pruebas de caja blanca y caja negra.
+
+# *Parte 2: Line*
+
+## Reconocimiento:
+
+- Recopilación de información sobre el objetivo, como direcciones IP, nombres de dominio, nombres de usuario y contraseñas.
+- Se pueden usar herramientas como Nmap, Metasploit y Shodan.
+
+# Uni:
+
+- Identificar vulnerabilidades en el sistema objetivo.
+- Se pueden usar herramientas como Nessus, OpenVAS y QualysGuard.
+
+# Escanco:
+
+- Obtener acceso al sistema objetivo.
+- Se pueden usar herramientas como Metasploit, Hydra y John the Ripper.
+
+# Ganas acceso:
+
+- Mantener el acceso al sistema objetivo.
+- Se pueden usar herramientas como Meterpreter, Plink y PuTTY.
+
+# Mantener acceso:
+
+- Cubrir huellas para evitar ser detectado.
+- Se pueden usar herramientas como Tor, VPN y Proxychains.
+
+# Cubrir huellas:
+
+- Eliminar rastros de la actividad del pentester en el sistema objetivo.
+
+---
+# 06-Febrero-2024
+---
+
+## Escalamiento de privilegios:
+
+- Técnica para obtener acceso de administrador mediante la escalada por diferentes capas de acceso.
+- Comienza desde la capa de usuario base hasta alcanzar el nivel de administrador.
+
+## Ransomware:
+
+- Software malicioso que encripta los datos del usuario y exige un rescate para su liberación.
+- Las variantes conocidas utilizan una combinación de contraseña y clave para la encriptación.
+
+## Medidas para protegerse del ransomware:
+
+- Realizar copias de seguridad regulares (offsite).
+- Capacitar al personal sobre la amenaza del ransomware.
+- Implementar una estrategia de seguridad por capas.
+
+## Tipos de respaldos:
+
+- Respaldo completo (full): Guarda toda la información en su totalidad.
+- Respaldo diferencial: Se realiza cada cierto tiempo y solo guarda la información nueva desde el último respaldo completo.
+- Respaldo incremental: Similar al diferencial, pero se realiza con mayor frecuencia.
+
+## Herramientas para respaldos:
+
+- Bacula
+- AWS RDS
+- Amazon S3
+
+---
+# 15-Febrero-2024
+---
+
+# Protocolo LDAP/OpenLDAP:
+
+- Permite montar varios servicios de la empresa con un árbol de dominio.
+- Define usuarios de aplicación, no asociados a personas, sino a la interacción entre aplicaciones.
+
+# Uso de Password Manager:
+
+- Herramienta para gestionar contraseñas de forma segura.
+- Se recomienda usar Entropía Keepass como herramienta específica.
+
+# Medidas para proteger las contraseñas:
+
+- Limitar el número de intentos de inicio de sesión (utilizar herramientas como fail2ban) .
+
+# Tipos de pentesting:
+
+- Internos: Se realizan desde dentro de la organización.
+- Externos: Se realizan desde fuera de la organización.
+
+# Según el conocimiento del sistema objetivo:
+
+- Whitebox: El pentester tiene acceso completo al código fuente y la infraestructura.
+- Blackbox: El pentester solo tiene acceso a la interfaz de usuario.
+- Graybox: El pentester tiene acceso parcial al sistema.
+
+## Fases del hacking (pentesting):
+
+- Reconocimiento (Footprinting): Recopilación de información sobre el objetivo.
+- Escaneo: Identificación de vulnerabilidades en el sistema.
+- Ganar acceso: Explotación de las vulnerabilidades para obtener acceso al sistema.
+- Mantener el acceso: Asegurar la persistencia en el sistema.
+- Cubrir huellas: Eliminar rastros de la actividad del pentester.
+
+---
+# 20-Febrero-2024
+---
+
+# Modelo OSI:
+
+Aplicación (@, URL, URI)
+Transporte (PORTS) TCP Y UDP
+
+# Puertos comunes:
+80: HTTP
+22: SSH
+21: FTP
+23: Telnet
+25: SMTP
+53: DNS
+3306: MySQL
+8080: Tomcat
+Red (IP)
+Enlace de datos (MAC)
+Física (NIC)
+
+# Puertos efímeros:
+- Puertos temporales asignados por el sistema operativo.
+- Se agotan cuando se alcanza el límite máximo.
+
+# Herramientas para escaneo de puertos:
+## netstat: 
+Lista los puertos que escuchan en una máquina local.
+
+## nmap:
+nmap ip: Escaneo básico de una dirección IP.
+nmap -pN ip: Escaneo sin ping (útil para hosts sigilosos).
+nmap -p- ip: Escaneo de todos los puertos.
+nmap -sV ip: Escaneo con detección de servicios.
+nslookup url: Resolución de nombres de dominio a direcciones IP.
+Triple handshake: Protocolo de establecimiento de conexión TCP.
+
+# Pruebas prácticas:
+Montar un Metasploitable2 en una máquina virtual para probar los comandos nmap.
+
+# Recursos adicionales:
+OWASP Top 10: https://owasp.org/www-project-top-ten/
+NIST Cybersecurity Framework: https://www.nist.gov/cyberframework
+
+# Temas adicionales:
+Análisis de malware
+Ingeniería social
+Criptografía
+Seguridad de la nube
+Respuesta a incidentes
+
+# Recomendaciones:
+Mantenerse actualizado con las últimas amenazas y vulnerabilidades.
+Participar en comunidades de seguridad informática.
+Obtener certificaciones profesionales en el área de ciberseguridad.
